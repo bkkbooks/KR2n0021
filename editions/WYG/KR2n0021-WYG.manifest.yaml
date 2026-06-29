@@ -1,0 +1,90 @@
+canonical_identifier: bkk:krp/KR2n0021/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR2n0021/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 法帖譜系
+  date: '2015-08-24 22:54:30.962684'
+  source:
+    repository: kanripo
+    path: KR2n0021
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR2n0021_000-WYG.yaml, hash: 'sha256:f3ea4c7f2c99b34e7a95df18368350116e1e52218bf834c1a4e2f71c5b24228f'}
+  - {seq: 1, filename: KR2n0021_001-WYG.yaml, hash: 'sha256:189e0fbb85cf20deb393d7d93bba01d670eda996eda3b70e1b0e53c6198f6783'}
+  - {seq: 2, filename: KR2n0021_002-WYG.yaml, hash: 'sha256:37fd76f578449b789e3049c954d9e6ba679569733eefff21327d1ba28d6db89d'}
+  - {seq: 3, filename: KR2n0021_003-WYG.yaml, hash: 'sha256:6aa7fcf012649b842784fda2240e13d8bbe2ae8ec40b5ff099646a80edddbd9b'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR2n0021_000-WYG.markers.yaml, hash: 'sha256:acb836d63afd1e29ba3453c70fb232bd0533fc1b4fa618f871d51c775a9e2ab9'}
+  - {seq: 1, role: markers, filename: assets/KR2n0021_001-WYG.markers.yaml, hash: 'sha256:c13692274f1f23253f9f5d8d342e0b11e13d7e62989673771a8f3aaaf3e36936'}
+  - {seq: 2, role: markers, filename: assets/KR2n0021_002-WYG.markers.yaml, hash: 'sha256:cd0f932b8dd46d79efb7c6a0795eee4d108338a94cb71f87c90e00aeb59e1152'}
+  - {seq: 3, role: markers, filename: assets/KR2n0021_003-WYG.markers.yaml, hash: 'sha256:2a30a53e6dc0f196fc28db7552d8672e16781dc446c0cb1b6e574036de42669d'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR2n0021_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 450
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR2n0021_WYG_000-3a
+    span:
+    - body
+    - 450
+    - 814
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR2n0021_WYG_000-5a
+    span:
+    - body
+    - 814
+    - 826
+  label: 法帖譜系圖
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR2n0021_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 2474
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR2n0021_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 1412
+  label: 卷下
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR2n0021_WYG_003-1a
+    span:
+    - body
+    - 0
+    - 199
+  label: 跋
+  type: section
+  level: 1
+hash: sha256:65f38d2a95ea930aa38a080b66912adeec4589906e133df0c4c6b69709a4c12b
